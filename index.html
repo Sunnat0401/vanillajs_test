@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🛒 Mini Marketplace</h1>
+            <div class="header-info">
+                <span class="cart-summary" id="cartSummary">Cart: 0 items</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="marketplace-grid">
+                <!-- Products Section -->
+                <section class="products-section">
+                    <div class="section-header">
+                        <h2>Products</h2>
+                        <div class="filter-controls">
+                            <select id="categoryFilter" class="filter-select">
+                                <option value="all">All Category</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="productsLoader" class="loader">Laoding...</div>
+                    <div id="productsGrid" class="products-grid"></div>
+                </section>
+
+                <!-- Cart Section -->
+                <section class="cart-section">
+                    <div class="section-header">
+                        <h2>Cart</h2>
+                    </div>
+                    <div id="cartContent" class="cart-content">
+                        <div class="empty-cart">
+                            <div class="empty-cart-icon">🛒</div>
+                            <p>Your cart is empty.</p>
+                            <small>Click the "Add to cart" button to purchase products.</small>
+                        </div>
+                    </div>
+                    <div id="cartTotal" class="cart-total hidden">
+                        <div class="cart-summary-details">
+                            <div class="summary-row">
+                                <span>Total products:</span>
+                                <span id="totalItems">0</span>
+                            </div>
+                            <div class="summary-row total">
+                                <span>Total amount:</span>
+                                <span id="totalPrice">$0.00</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-checkout" id="checkoutBtn">Shopping</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mini Marketplace. All rights reserved in the official online store Click.</p>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
