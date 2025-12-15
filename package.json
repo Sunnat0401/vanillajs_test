@@ -1,8 +1,8 @@
 {
-  "name": "my-v0-project",
+  "name": "vanillajs_test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "echo 'no build script'"
+    "build": "echo 'static site - no build needed'"
   }
 }
