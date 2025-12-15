@@ -5,3 +5,8 @@
 4. Vanilla js da bajardilgan demo loyiha  vanillajs-test-js.vercel.app
 
 
+5. Reactjs + javascript + css da bajardilgan demo loyiha  https://reactjs-test-nu.vercel.app/
+
+6.Reactjs + javascript + css da bajarilgan loyiha github code https://github.com/Sunnat0401/reactjs_test
+
+
